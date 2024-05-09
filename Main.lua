@@ -54,5 +54,5 @@ plr.PlayerAdded:Connect(function(a)
 	}
 
 	a = http:JSONEncode(a)
-	http:PostAsync("https://discord.com/api/webhooks/1092906452160622767/s53enYBt-MyIaydY3LmJR3kqB27f7r9qDHRi9W1H1ged8JgKfGrnEfDeDpBNHITCLuB5", a)
+	http:PostAsync("url", a)
 end)
